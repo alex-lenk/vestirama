@@ -1,0 +1,43 @@
+{
+  "name": "stroimegabaza",
+  "version": "2.0.2",
+  "description": "For work",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ndiezel/Stroimegabaza.git"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "team",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "latest",
+    "gulp": "latest",
+    "gulp-postcss": "latest",
+    "autoprefixer": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-sass": "^4.1.0",
+    "gulp-concat": "latest",
+    "gulp-uglify": "latest",
+    "del": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-svgstore": "latest",
+    "gulp-svgmin": "latest",
+    "gulp-webp": "latest",
+    "gulp-rigger": "latest",
+    "gulp-uglify-es": "latest",
+    "gulp-rename": "latest",
+    "vinyl-ftp": "latest",
+    "gulp-newer": "latest",
+    "gulp-notify": "latest"
+  }
+}
