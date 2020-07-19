@@ -68,6 +68,16 @@ function fontsFile() {
         .pipe(gulp.dest('./build/fonts'))
 }
 
+// favicon task
+function faviconFile() {
+    return gulp.src('./src/favicon/*.*')
+        .pipe(gulp.dest('./build/favicon'))
+}
+//exports.faviconFile = faviconFile;
+
+gulp.task('faviconFile', gulp.series(faviconFile));
+
+
 //Удалить всё в указанной папке
 function clean() {
     return del(['build/*'])
