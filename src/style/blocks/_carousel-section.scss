@@ -1,0 +1,105 @@
+.carousel-section {
+  padding: 0 40px 20px;
+  background-color: #0c1b3a;
+}
+
+.carousel-section__social {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+
+  &::before {
+    width: 24px;
+    height: 24px;
+    margin-right: 17px;
+    background: url(../img/icons/instagram.svg) no-repeat center;
+    background-size: contain;
+    content: '';
+  }
+}
+
+.carousel-section__social-link {
+  color: #d2ffff;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.carousel-section__news-item {
+  padding: 0 5px;
+  position: relative;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.carousel-section__news-link {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  line-height: 1.3;
+  top: 0;
+  left: 0;
+  position: absolute;
+  color: #fff;
+  z-index: 2;
+  display: flex;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.carousel-section__news-inner {
+  position: relative;
+  transition: opacity .3s;
+
+  &::before {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(#000, .35);
+    content: '';
+  }
+
+  &:hover {
+    opacity: .8;
+  }
+}
+
+.carousel-section__news-title {
+  font-size: 13px;
+  margin-top: auto;
+}
+
+.slick-arrow {
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  border: 0;
+  position: absolute;
+  top: 50%;
+  margin-top: -13px;
+  text-indent: -99px;
+  overflow: hidden;
+  background: url(../img/icons/arrow.svg) no-repeat center;
+  background-size: contain;
+}
+
+.slick-prev {
+  left: -30px;
+}
+
+.slick-next {
+  right: -30px;
+  transform: rotate(180deg);
+}
