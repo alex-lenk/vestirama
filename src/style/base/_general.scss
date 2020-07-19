@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/OpenSans-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'LiberationSans-Bold';
+  src: url('../fonts/LiberationSans-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  padding-top: 15px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1265px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hide-placeholder {
+  @include hidePlaceholder {
+    color: #333;
+    opacity: 1;
+    transition: opacity 0.4s ease;
+  }
+
+  &:focus {
+    @include hidePlaceholder {
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
+  }
+}
+
+.list-unstyled {
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}

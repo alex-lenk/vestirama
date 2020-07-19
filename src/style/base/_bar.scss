@@ -1,0 +1,35 @@
+.bar {
+  margin-bottom: 15px;
+  padding-top: 6px;
+  border-top: 6px solid #0c1b3a;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar-box {
+  padding: 18px 9px;
+  max-width: 31%;
+  flex-basis: 31%;
+  background-color: #d9dce3;
+  border-bottom: 2px solid #737c90;
+  color: #0c1b3a;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+
+  &::before {
+    content: '';
+  }
+}
+
+.bar-box__media {
+  width: 58px;
+  height: 58px;
+  margin-right: 14px;
+  border: 5px solid #0c1b3a;
+  display: flex;
+}
+
+.bar-box__media-img {
+  margin: auto;
+}
