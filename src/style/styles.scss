@@ -8,3 +8,13 @@
 @import "base/menu";
 @import "blocks/carousel-section";
 @import "blocks/news";
+@import "blocks/special-projects";
+@import "blocks/scene-section";
+
+.section-block {
+  width: 67%;
+}
+
+.section-block-media {
+  padding-left: 10px;
+}

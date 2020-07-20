@@ -1,0 +1,41 @@
+.scene-section {
+  color: inherit;
+  display: flex;
+
+  &:hover {
+    color: inherit;
+  }
+}
+
+.scene-media {
+  flex-shrink: 0;
+}
+
+.scene-content {
+  padding-top: 14px;
+}
+
+.scene-holder {
+  height: 100%;
+  padding: 0 15px 10px;
+  background-color: #d1d1d2;
+  line-height: 1.3;
+}
+
+.scene-title {
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 8px 18px;
+  text-transform: uppercase;
+  background-color: #0c1b3a;
+  color: #fff;
+  display: inline-block;
+  position: relative;
+  top: -14px;
+  font-weight: 700;
+}
+
+.scene-text {
+  margin-top: 5px;
+  font-size: 14px;
+}
