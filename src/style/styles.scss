@@ -3,6 +3,7 @@
 @import "vendors/slick/slick";
 @import "base/mixin";
 @import "base/general";
+@import "base/custom-control";
 @import "base/bar";
 @import "base/header";
 @import "base/menu";
@@ -10,11 +11,20 @@
 @import "blocks/news";
 @import "blocks/special-projects";
 @import "blocks/scene-section";
+@import "blocks/blockquote";
+@import "blocks/our-face";
+@import "blocks/poll";
+@import "blocks/opinion";
 
 .section-block {
   width: 67%;
+  flex-shrink: 0;
 }
 
 .section-block-media {
   padding-left: 10px;
+}
+
+.section-block__info {
+  margin-bottom: 40px;
 }
