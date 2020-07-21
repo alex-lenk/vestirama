@@ -54,6 +54,7 @@ function htmlFile() {
     return gulp.src('./src/view/*.html')
         .pipe(rigger())
         .pipe(gulp.dest('./build'))
+        .pipe(browserSync.stream());
 }
 
 // Img task
@@ -98,8 +99,6 @@ function watch() {
     gulp.watch('./src/img/**/*.*', imgFile)
 
     gulp.watch('./src/view/*.html', htmlFile)
-
-    gulp.watch("./src/view/*.html").on('change', browserSync.reload);
 }
 
 //Таск вызывающий функцию styles

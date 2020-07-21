@@ -7,20 +7,23 @@
 
 @font-face {
   font-family: 'OpenSans';
-  src: url('../fonts/OpenSans-Bold.woff') format('woff');
-  font-weight: 700;
+  src: url('../fonts/VestiSans-Lig.woff') format('woff');
+  font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'LiberationSans-Bold';
-  src: url('../fonts/LiberationSans-Bold.woff') format('woff');
-  font-weight: normal;
+  font-family: 'OpenSans';
+  src: url('../fonts/VestiSans-Med.woff') format('woff');
+  font-weight: 500;
   font-style: normal;
 }
 
-body {
-  padding-top: 15px;
+@font-face {
+  font-family: 'OpenSans';
+  src: url('../fonts/LiberationSans-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
 }
 
 img {
