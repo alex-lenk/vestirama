@@ -1,14 +1,14 @@
 {
-    "name": "\u0412\u0435\u0441\u0442\u0438 \u0440\u0430\u043c\u0430",
-    "short_name": "\u0412\u0435\u0441\u0442\u0438 \u0440\u0430\u043c\u0430",
+    "name": "Вести рама",
+    "short_name": "вести-рама",
     "icons": [
         {
-            "src": "/favicon/android-chrome-192x192.png",
+            "src": "favicon/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         },
         {
-            "src": "/favicon/android-chrome-512x512.png",
+            "src": "favicon/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
