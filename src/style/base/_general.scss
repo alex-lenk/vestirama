@@ -31,7 +31,6 @@ img {
 }
 
 .container {
-  max-width: 1265px;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -126,5 +125,17 @@ a.btn.disabled {
     color: #fff;
     background-color: #00183c;
     border-color: #00183c;
+  }
+}
+
+@media (min-width: 1270px) {
+  .container {
+    max-width: 1265px;
+  }
+}
+
+@media (max-width: 1269px) {
+  .container {
+    max-width: 768px;
   }
 }
