@@ -2,8 +2,13 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
     <title>Вести рама</title>
+
     <link rel="stylesheet" href="css/styles.css">
+
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -46,31 +51,35 @@
             <span class="logo-text">ФГУП ВГТРК ГТРК "Оренбург"</span>
             <img src="img/logo.png" alt="">
         </a>
-        <ul class="menu list-unstyled">
-            <li class="menu-item menu-item__parent">
-                <a href="#" class="menu-link">вести оренбуржья</a>
+        <nav class="nav-menu">
+            <ul class="menu list-unstyled">
+                <li class="menu-item menu-item__parent">
+                    <a href="#" class="menu-link">вести оренбуржья</a>
 
-                <ul class="menu-dropdown list-unstyled">
-                    <li class="menu-dropdown__item"><a href="#" class="menu-dropdown__link">Подпункт меню</a></li>
-                    <li class="menu-dropdown__item"><a href="#" class="menu-dropdown__link">Подпункт меню</a></li>
-                    <li class="menu-dropdown__item"><a href="#" class="menu-dropdown__link">Подпункт меню</a></li>
-                </ul>
-            </li>
+                    <ul class="menu-dropdown list-unstyled">
+                        <li class="menu-dropdown__item"><a href="#" class="menu-dropdown__link">Подпункт меню</a></li>
+                        <li class="menu-dropdown__item"><a href="#" class="menu-dropdown__link">Подпункт меню</a></li>
+                        <li class="menu-dropdown__item"><a href="#" class="menu-dropdown__link">Подпункт меню</a></li>
+                    </ul>
+                </li>
 
-            <li class="menu-item menu-item__parent">
-                <a href="#" class="menu-link">телепередачи</a>
+                <li class="menu-item menu-item__parent">
+                    <a href="#" class="menu-link">телепередачи</a>
 
-                <ul class="menu-dropdown list-unstyled">
-                    <li class="menu-dropdown__item"><a href="#" class="menu-dropdown__link">Подпункт телепередачи</a></li>
-                    <li class="menu-dropdown__item"><a href="#" class="menu-dropdown__link">Подпункт телепередачи</a></li>
-                    <li class="menu-dropdown__item"><a href="#" class="menu-dropdown__link">Подпункт телепередачи</a></li>
-                </ul>
-            </li>
+                    <ul class="menu-dropdown list-unstyled">
+                        <li class="menu-dropdown__item"><a href="#" class="menu-dropdown__link">Подпункт телепередачи</a></li>
+                        <li class="menu-dropdown__item"><a href="#" class="menu-dropdown__link">Подпункт телепередачи</a></li>
+                        <li class="menu-dropdown__item"><a href="#" class="menu-dropdown__link">Подпункт телепередачи</a></li>
+                    </ul>
+                </li>
 
-            <li class="menu-item"><a href="#" class="menu-link">радио</a></li>
+                <li class="menu-item"><a href="#" class="menu-link">радио</a></li>
 
-            <li class="menu-item"><a href="#" class="menu-link">филиал вгтрк</a></li>
-        </ul>
+                <li class="menu-item"><a href="#" class="menu-link">филиал вгтрк</a></li>
+            </ul>
+        </nav>
+
+        <button type="button" class="menu-toggle"></button>
 
         <form action="/" class="header-search">
             <label class="sr-only" for="search__field">Поиск по сайту</label>
@@ -421,12 +430,12 @@
        </aside>
 
         <aside class="news-section-right">
-            <div>
+            <div class="news-section-column">
                 <a href="#" class="news-section-main__head"><span class="text-bold">ВЕСТИ ОРЕНБУРЖЬЯ</span> / Выпуск 20:45</a>
                 <a href="#" class="news-section-main__video"><img src="img/example/video-news-04.png" alt=""></a>
             </div>
 
-            <div>
+            <div class="news-section-column">
                 <a href="#" class="news-stories__head">популярные сюжеты</a>
                 <div class="news-stories">
                     <a href="#" class="news-stories__item">
@@ -460,9 +469,7 @@
                 </div>
             </div>
         </aside>
-    </div>
 
-    <div class="news-wrapper">
         <div class="section-block">
             <div class="special-projects">
                 <div class="special-projects__title">
@@ -564,7 +571,7 @@
             </div>
         </div>
 
-        <div class="section-block-media">
+        <div class="section-block-pre__footer">
             <div>
                 <div class="opinion-title">Федосов</div>
 

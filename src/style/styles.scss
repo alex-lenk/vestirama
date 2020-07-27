@@ -17,15 +17,29 @@
 @import "blocks/opinion";
 @import "base/footer";
 
-.section-block {
-  width: 67%;
-  flex-shrink: 0;
-}
-
 .section-block-media {
   padding-left: 10px;
+  width: 33.5%;
 }
 
 .section-block__info {
   margin-bottom: 40px;
+}
+
+@media (min-width: 1270px) {
+  .section-block {
+    width: 66.5%;
+  }
+
+  .section-block-pre__footer {
+    padding-left: 10px;
+    width: 33.5%;
+  }
+}
+
+@media (max-width: 1269px) {
+  .section-block {
+    width: 100%;
+    margin-bottom: 15px;
+  }
 }

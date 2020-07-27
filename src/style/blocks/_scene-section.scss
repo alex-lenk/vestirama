@@ -7,10 +7,6 @@
   }
 }
 
-.scene-media {
-  flex-shrink: 0;
-}
-
 .scene-content {
   padding-top: 14px;
 }
@@ -38,4 +34,24 @@
 .scene-text {
   margin-top: 5px;
   font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  .scene-media {
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .scene-section {
+    flex-direction: column;
+  }
+  .scene-media {
+    order: 1;
+    object-fit: cover;
+
+    img {
+      width: 100%;
+    }
+  }
 }

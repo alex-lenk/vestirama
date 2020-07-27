@@ -2,24 +2,16 @@
   margin-bottom: 15px;
   padding-top: 6px;
   border-top: 6px solid #0c1b3a;
-  display: flex;
-  justify-content: space-between;
 }
 
 .bar-box {
   padding: 18px 9px;
-  max-width: 31%;
-  flex-basis: 31%;
   background-color: #d9dce3;
   border-bottom: 2px solid #737c90;
   color: #0c1b3a;
   text-transform: uppercase;
   display: flex;
   align-items: center;
-
-  &::before {
-    content: '';
-  }
 }
 
 .bar-box__media {
@@ -32,4 +24,25 @@
 
 .bar-box__media-img {
   margin: auto;
+}
+
+@media (min-width: 768px) {
+  .bar {
+    display: flex;
+    justify-content: space-between;
+  }
+  .bar-box {
+    max-width: 31%;
+    flex-basis: 31%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1269px) {
+  .bar-box {
+    flex-direction: column;
+  }
+  .bar-box__media {
+    margin-right: 0;
+    margin-bottom: 14px;
+  }
 }

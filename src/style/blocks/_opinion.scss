@@ -11,7 +11,6 @@
   &::before {
     width: 50px;
     height: 16px;
-    left: 25%;
     bottom: -5px;
     position: absolute;
     background-color: #005eaf;
@@ -37,5 +36,17 @@
     margin-bottom: 15px;
     padding-bottom: 15px;
     border-bottom: 1px solid #bfc8ce;
+  }
+}
+
+@media (min-width: 768px) {
+  .opinion-title::before {
+    left: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  .opinion-title::before {
+    left: 15%;
   }
 }
