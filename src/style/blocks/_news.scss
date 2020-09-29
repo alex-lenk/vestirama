@@ -182,6 +182,18 @@
   }
 }
 
+.news-section-main__live {
+  margin-bottom: 32px;
+  width: 100%;
+  padding: 15px;
+  text-transform: uppercase;
+  background: red;
+  color: #fff;
+  border: 0;
+  text-align: left;
+  font-weight: 700;
+}
+
 .news-section-right {
   margin-bottom: 15px;
 }
@@ -286,6 +298,19 @@
   .news-stories__media {
     max-width: 100px;
     flex-basis: 100px;
+  }
+  .news-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .news-feed,
+  .news-section-right,
+  .section-block,
+  .section-block-media {
+    order: 1;
+  }
+  .news-section-center {
+    margin-bottom: 32px;
   }
 }
 
